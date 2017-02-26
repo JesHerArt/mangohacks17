@@ -20,7 +20,7 @@ $(document).ready(function () {
     stage.addChild(netBmppp);
 
     var turtle = new Image();
-    turtle.src = "images/sea_turtle2.png";
+    turtle.src = "images/sea_turtle.png";
     var turtleBmp = new createjs.Bitmap(turtle);
     turtleBmp.x = middle1-101;
     turtleBmp.y = middle2-100;
