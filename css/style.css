@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+.no_show {
+    display: none;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    background: #A5D936;
+    font-weight: bold;
+
+}
+
+.heartContainer {
+    width: 30px;
+}
+
+div#gameContainter {
+    position: relative;
+    display: inline-block;
+}
+
+div#healthBar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+}
+
+div#content {
+    text-align: center;
+}
