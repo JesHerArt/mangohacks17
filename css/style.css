@@ -8,6 +8,18 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#coverImage {
+    width: 80%;
+    margin: 30px auto;
+    display: block;
+}
+
 canvas {
     border: 1px solid black;
 }
@@ -19,10 +31,20 @@ canvas {
 button {
     display: block;
     margin: 0 auto;
-    padding: 10px 30px;
+    padding: 20px 60px;
     background: #A5D936;
     font-weight: bold;
+    position: absolute;
+    bottom: 180px;
+    left: 580px;
+    border: 2px solid white;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
 
+button:hover {
+    cursor: pointer;
+    background: #95C431;
 }
 
 .heartContainer {
@@ -43,4 +65,15 @@ div#healthBar {
 
 div#content {
     text-align: center;
+}
+
+#gameOver p {
+    width: 50%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
 }

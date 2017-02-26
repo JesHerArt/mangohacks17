@@ -30,7 +30,9 @@ $(document).ready(function () {
         e.preventDefault();
 
         $(this).addClass('no_show');
+        $('#intro').addClass('no_show');
         $('#content').removeClass('no_show');
+        $('#titles').removeClass('no_show');
 
         console.log("game starting");
 
@@ -165,7 +167,7 @@ $(document).ready(function () {
         var can_rings = new Image();
         can_rings.src = "images/can_rings.png";
         var canRingsBmp = new createjs.Bitmap(can_rings);
-        canRingsBmp.x = 1600;
+        canRingsBmp.x = 1310;
         canRingsBmp.y = Math.random() * (600 - 0) + 0;
         stage.addChild(canRingsBmp);
 
